@@ -28,7 +28,7 @@ const App = () => {
         <ul className="labels">
           <li>
             <Button 
-              title="Short Break" 
+              title="Short-Break"
               activeClass={executing.active === 'short' ? 'active-label' : undefined} 
               _callback={() => setCurrentTimer('short')} 
             />
@@ -42,7 +42,7 @@ const App = () => {
           </li>
           <li>
             <Button 
-              title="Long Break" 
+              title="Long-Break"
               activeClass={executing.active === 'long' ? 'active-label' : undefined} 
               _callback={() => setCurrentTimer('long')} 
             />
